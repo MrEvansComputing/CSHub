@@ -1,0 +1,42 @@
+{
+  "root_files": [
+    "styles.css",
+    "404.html",
+    "year11",
+    "index.html",
+    "top_banner_clean.png",
+    "cs_spec_hub_logo.png",
+    "year9",
+    "README.md",
+    "year10"
+  ],
+  "year_checks": {
+    "year9": {
+      "index.html": true,
+      "styles.css": true,
+      "app.js": true,
+      "data.js": true,
+      "js_syntax_ok": true,
+      "js_message": "",
+      "folder_index_exists": true
+    },
+    "year10": {
+      "index.html": true,
+      "styles.css": true,
+      "app.js": true,
+      "data.js": true,
+      "js_syntax_ok": true,
+      "js_message": "",
+      "folder_index_exists": true
+    },
+    "year11": {
+      "index.html": true,
+      "styles.css": true,
+      "app.js": true,
+      "data.js": true,
+      "js_syntax_ok": true,
+      "js_message": "",
+      "folder_index_exists": true
+    }
+  }
+}

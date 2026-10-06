@@ -1,0 +1,49 @@
+{
+  "year": "Year9",
+  "total_tasks": 148,
+  "task_types": {
+    "mcq": 58,
+    "classify": 15,
+    "order": 4,
+    "short": 27,
+    "boss": 32,
+    "trace": 2,
+    "truth": 1,
+    "number": 9
+  },
+  "unsupported_types": [],
+  "binary_entry_tasks_converted": [
+    [
+      "binary-conversion",
+      2,
+      "01001001"
+    ],
+    [
+      "binary-addition",
+      2,
+      "00001000"
+    ],
+    [
+      "binary-addition",
+      3,
+      "00010000"
+    ],
+    [
+      "binary-shifts",
+      1,
+      "00001010"
+    ],
+    [
+      "binary-shifts",
+      2,
+      "00011000"
+    ],
+    [
+      "hexadecimal",
+      4,
+      "01111101"
+    ]
+  ],
+  "javascript_syntax_check": true,
+  "javascript_syntax_message": ""
+}

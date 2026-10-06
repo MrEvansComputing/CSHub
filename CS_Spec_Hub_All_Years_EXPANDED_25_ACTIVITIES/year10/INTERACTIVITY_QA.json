@@ -1,0 +1,33 @@
+{
+  "year": "Year10",
+  "total_tasks": 195,
+  "task_types": {
+    "mcq": 64,
+    "classify": 28,
+    "short": 39,
+    "boss": 39,
+    "trace": 7,
+    "order": 7,
+    "number": 11
+  },
+  "unsupported_types": [],
+  "binary_entry_tasks_converted": [
+    [
+      "binary-arithmetic",
+      1,
+      "00010100"
+    ],
+    [
+      "binary-shifts",
+      3,
+      "00001100"
+    ],
+    [
+      "hexadecimal",
+      3,
+      "00111100"
+    ]
+  ],
+  "javascript_syntax_check": true,
+  "javascript_syntax_message": ""
+}
