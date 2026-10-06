@@ -1,0 +1,23 @@
+{
+  "year": "Year10",
+  "task_types": {
+    "mcq": 62,
+    "classify": 28,
+    "short": 39,
+    "boss": 39,
+    "trace": 7,
+    "searchsim": 2,
+    "sortsim": 2,
+    "number": 11,
+    "order": 5
+  },
+  "javascript_syntax_ok": true,
+  "javascript_message": "",
+  "remaining_us_spelling_flags": {},
+  "drag_drop_features": [
+    "ordering tasks draggable",
+    "classification tasks draggable into categories",
+    "search simulations with draggable search marker",
+    "sorting simulations with draggable values"
+  ]
+}

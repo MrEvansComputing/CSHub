@@ -1,0 +1,38 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Year 10 Computer Science Spec Hub</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+
+
+<header class="site-shell">
+  <div class="site-banner">
+    <img class="banner-full-image" src="year10_banner.png" alt="CS Spec Hub banner">
+  </div>
+
+  <div class="controlbar">
+    <div class="controlbar-inner">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="hub-home-button" href="../" aria-label="Back to CS Spec Hub home">⌂&nbsp; Hub Home</a>
+        <button onclick="showHome()">📖&nbsp; Topics</button>
+        <button onclick="location.hash='algorithms'">⌘&nbsp; Algorithms</button>
+        <button onclick="location.hash='programming'">&lt;/&gt;&nbsp; Programming</button>
+        <button onclick="location.hash='data'">💾&nbsp; Data</button>
+        <button onclick="location.hash='computers'">🖥️&nbsp; Computers</button>
+        <button onclick="location.hash='networks'">🌐&nbsp; Networks</button>
+        <button onclick="location.hash='security-impact'">🛡️&nbsp; Security</button>
+      </nav>
+
+      <div class="hud">
+        <div class="pill"><b data-xp>0</b><span>XP</span></div>
+        <div class="pill"><b data-done>0</b><span>tasks</span></div>
+        <button class="ghost reset-btn" onclick="resetProgress()">Reset</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<main class="wrap" id="app"></main>
+<div class="footer">Year 10 Computer Science • Pearson Edexcel GCSE (9–1) • Topic-based learning hub</div>
+<script src="site-config.js"></script><script src="data.js"></script><script src="app.js"></script>
+</body></html>
