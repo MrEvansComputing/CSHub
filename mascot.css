@@ -1,0 +1,25 @@
+
+:root{--hv-navy:#09283d;--hv-ink:#15384c;--hv-cyan:#15bed6}
+body{background:linear-gradient(145deg,#edf7f8,#f6fafc 44%,#edf4f7)!important}
+.site-banner{background:#081e2d}.controlbar{box-shadow:0 8px 23px rgba(2,35,48,.12)}
+.wrap{width:min(1320px,94vw)!important}
+.hero,.learn,.task,.card,.subcard,.visual{box-shadow:0 10px 25px rgba(17,60,83,.07)!important;border-radius:20px!important}
+.hero{gap:28px!important}.task{padding:24px!important;scroll-margin-top:24px}.task:focus-within{border-color:#4bbed0!important}
+.task .feedback{line-height:1.55}.option,.btn,.searchbox{transition:transform .15s ease,box-shadow .15s ease}.btn:hover{transform:translateY(-1px)}
+.hv-guide-card{display:flex;align-items:center;gap:18px;border:1px solid #a5dce3;border-radius:22px;background:linear-gradient(110deg,#fff,#e2f8f5);padding:14px 22px;margin:18px 0 24px;box-shadow:0 10px 24px #143c5010}
+.hv-guide-card img{width:125px;height:118px;object-fit:contain;object-position:center;mix-blend-mode:multiply;flex:0 0 auto}
+.hv-guide-card h2{margin:0 0 6px;font-size:22px}.hv-guide-card p{margin:0;color:#456275;line-height:1.5}
+.hv-mascot-tip{display:flex;gap:12px;align-items:center;margin:14px 0;background:#eaf8f3;border:1px solid #bce0d8;border-radius:16px;padding:10px 15px}
+.hv-mascot-tip img{width:80px;height:80px;object-fit:contain;mix-blend-mode:multiply}
+.hv-mascot-tip span{font-size:14px;line-height:1.5}.hv-mascot-tip button{border:0;border-radius:11px;background:#116b69;color:white;padding:10px 13px;cursor:pointer;font-weight:800;flex-shrink:0}
+.hv-mascot-dock{position:fixed;z-index:60;bottom:18px;right:18px;border:1px solid #c1e4e2;border-radius:20px;background:#fff;box-shadow:0 10px 35px #102a3550;padding:7px 12px 7px 6px;display:flex;gap:9px;align-items:center;cursor:pointer;max-width:220px;color:#1b4350;font-weight:800}
+.hv-mascot-dock img{width:62px;height:63px;object-fit:contain;mix-blend-mode:multiply}
+.hv-mascot-pop{position:fixed;bottom:100px;right:18px;width:min(390px,calc(100vw - 36px));z-index:99;display:none;background:#fff;border:2px solid #5cbeb5;border-radius:22px;padding:18px;box-shadow:0 15px 50px #071f3270;color:#193c4e}
+.hv-mascot-pop.open{display:block;animation:hvRise .25s ease-out}
+.hv-mascot-pop[data-kind="bad"]{border-color:#f0b0a5}.hv-mascot-pop[data-kind="success"]{border-color:#70c89e}.hv-mascot-pop[data-kind="warn"]{border-color:#edc576}
+.hv-mascot-pop .hv-pop-row{display:flex;gap:14px;align-items:center}.hv-mascot-pop img{height:145px;width:135px;object-fit:contain;mix-blend-mode:multiply;flex-shrink:0}
+.hv-mascot-pop h3{margin:0 0 8px;font-size:20px}.hv-mascot-pop p{margin:0;line-height:1.5;font-size:14px}
+.hv-close{position:absolute;right:9px;top:8px;background:#eef5f5;border:0;border-radius:50%;width:28px;height:28px;cursor:pointer;font-size:18px}
+@keyframes hvRise{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:none}}
+@media(max-width:650px){.hv-guide-card{flex-direction:column;text-align:center}.hv-guide-card img{width:100px;height:100px}.hv-mascot-tip{flex-wrap:wrap}.hv-mascot-tip button{width:100%}.hv-mascot-dock{max-width:150px;font-size:12px}.hv-mascot-dock img{width:42px;height:48px}.hv-mascot-pop img{height:115px;width:105px}}
+@media(prefers-reduced-motion:reduce){.hv-mascot-pop.open{animation:none}}
